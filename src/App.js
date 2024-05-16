@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Mohak , Anas , Avinash, Uday, Sudhi, Irshad with Amplify 
+          Learn React with Mohak , Anas , Avinash, Uday, Sudhi, Irshad, anupama, Mahantesh  with Amplify 
         </a>
       </header>
     </div>
