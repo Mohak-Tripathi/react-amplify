@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://p.typekit.net/p.css?s=1&k=uyc1ktv&ht=tk&f=44510.44511.44516.44517.44524.44525.44530.44531.44538.44539.44544.44545&a=113370169&app=typekit&e=css");
+@font-face {
+  font-family: "degular";
+  src: url("https://use.typekit.net/af/174e41/00000000000000007735c867/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/174e41/00000000000000007735c867/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/174e41/00000000000000007735c867/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "degular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.MuiDialog-root {
+  z-index: 100 !important;
+}
+
+.treeParent > ul {
+  width: -webkit-fill-available;
+  display: block;
+}
+
+.p-inputtext,
+.p-component,
+.MuiDialogContentText-root,
+.MuiAutocomplete-root,
+.MuiAutocomplete-popper {
+  font-family: "degular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+}
+
+.MuiAutocomplete-popper {
+  font-size: 0.875rem;
+}
+
+.p-inputtext {
+  color: rgb(169, 175, 184) !important;
+}
+
+#rfs-btn span {
+  color: rgb(169, 175, 184) !important;
+  font-size: 0.875rem;
+}
+
+/* .p-multiselect .p-multiselect-label.p-placeholder */
