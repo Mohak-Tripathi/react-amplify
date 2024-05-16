@@ -1,0 +1,42 @@
+.general-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    border-color: rgb(212 212 212);
+    --tw-border-opacity: 0.9; 
+    background-color: rgb(212 212 212);
+}
+
+.split-gap{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-items: start;
+}
+
+.split{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.checkBoxBtn{
+    width: 1.25rem;
+    height: 1.25rem;
+    color: rgb(37, 99, 235);
+    background: rgb(243, 244, 246);
+}
+
+.tree{
+    width: 100%;
+}
+
+.custom-dropdown-panel {
+    z-index: 1001; 
+}
